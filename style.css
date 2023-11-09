@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;500&display=swap');
+*{
+    font-family: 'Open Sans';
+    margin:0;
+    padding:0;
+}
+.cont{
+    background-color: rgba(245, 255, 250);
+    font-size: 20px;
+}
+
+.textual{
+    margin-left: 60px;
+}
+
+.navbar{
+    text-align: center;
+    font-size: 22px;
+    padding: 15px;
+    background-color: rgba(200, 243, 205);
+    height: 70px;
+}
+
+.top_logo{
+    margin-left: 20px;
+}
+a{
+    text-decoration: none;
+    color: black;
+    padding: 20px;
+    margin-left:100px;
+}
+a:hover{
+    color: rgba(169, 211, 158);
+}
+footer{
+    text-align: center;
+    background-color: rgba(200, 243, 205);
+    height: 100px;
+    padding-top: 60px;
+    overflow: hidden;
+}
+.sign{
+    text-align: right;
+}
+hr{
+    background-color: black;
+}
+.submit{
+    margin-left: 60px;
+    height: 30px;
+    width: 100px;
+    font-size: 15px;
+    color: white;
+    border-style: none;
+}
+.submit:hover{
+    color: black;
+}
+#submit-btn{
+    background-color: rgb(55, 144, 226);
+}
+#back-btn{
+    background-color: gray;
+}
