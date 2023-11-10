@@ -7,7 +7,8 @@
     <title>Contact</title>
 </head>
 <body>
-    <form class="formelements" action="">
+    <form id="form-elements" action="">
+        <h1> CONTACT US</h1>
         <div>
             <label for="fname">First Name</label>
             <input type="text" id="fname" value="John" required>
@@ -23,19 +24,21 @@
         <div>
             <label for="country">Country</label>
             <select id="country">
+                <option>Select Country</option>
+                <option value="Bhutan">Bhutan</option>
+                <option value="China">China</option>
                 <option value="India">India</option>
+                <option value="Myanmar">Myanmar</option>
+                <option value="Nepal">Nepal</option>    
                 <option value="Pakistan">Pakistan</option>
                 <option value="Sri Lanka">Sri Lanka</option>
-                <option value="China">China</option>
-                <option value="Nepal">Nepal</option>
-                <option value="Bhutan">Bhutan</option>
-                <option value="Myanmar">Myanmar</option>
             </select>
         </div>
         <div>
             <label for="reason">Anything else?</label>
             <input style="height: 100px; width: 200px;" type="textarea" id="reason">
         </div>
+        <br>
         <div>
             <input type="submit" id="submit-btn">
         </div>

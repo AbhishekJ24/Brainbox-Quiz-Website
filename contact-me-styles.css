@@ -1,12 +1,45 @@
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;500&family=Poppins:wght@500&family=Roboto:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@450&display=swap');
 
 *{
-    font-family: 'Roboto', sans-serif;
-    padding: 4px;
+    font-family: 'Roboto', 
+    sans-serif;
+    font-size: 12px;
+    padding: 8px;
+}
+h1{
+    font-size: 30px;
+    text-align: center;
 }
 #emailid{
     width: 160px;
 }
 #country{
-    width: 90px;
+    width: 120px;
+}
+#submit-btn{
+    width: 80px;
+    height: 31px;
+    margin-left: 400px;
+    background-color: azure;
+}
+#submit-btn:hover{
+    background-color: #84ecd4;
+}
+#form-elements{
+    background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+	background-size: 400% 400%;
+	-webkit-animation: gradient 15s ease infinite;
+	animation: gradient 15s ease infinite;
+    border-color: black;
+    border-style: solid;
+    width: 500px;
+    height: 480px;
+    margin-top: 180px;
+    margin-left: 550px;
+}
+footer{
+    text-align: center;
+    height: 100px;
+    padding-top: 60px;
+    overflow: hidden;
 }
