@@ -10,32 +10,46 @@
     <form id="form-elements" action="">
         <h1> CONTACT US</h1>
         <div>
-            <label for="fname">First Name</label>
-            <input type="text" id="fname" value="Your First Name" required>
+            <label for="fname">First Name*</label>
+            <br>
+            <br>
+            <input type="text" id="fname" required>
         </div>
+        <br>
         <div>
-            <label for="lname">Last Name</label>
-            <input type="text" id="lname" value="Your Last Name" required>
+            <label for="lname">Last Name*</label>
+            <br>
+            <br>
+            <input type="text" id="lname" required>
         </div>
+        <br>
         <div>
-            <label for="emailid">Work Email</label>
-            <input type="email" id= "emailid" name="" value="xxxxxx@domain" required>
+            <label for="emailid">Work Email*</label>
+            <br>
+            <br>
+            <input type="email" id= "emailid" required>
         </div>
+        <br>
         <div>
-            <label for="country">Country</label>
-            <select id="country">
-                <option>Select Country</option>
+            <label for="country">Country*</label>
+            <br>
+            <br>
+            <select id="country" placeholder="">
+                <option disabled>Select Country</option>
                 <option value="Bhutan">Bhutan</option>
                 <option value="China">China</option>
-                <option value="India">India</option>
+                <option value="India" selected>India</option>
                 <option value="Myanmar">Myanmar</option>
                 <option value="Nepal">Nepal</option>    
                 <option value="Pakistan">Pakistan</option>
                 <option value="Sri Lanka">Sri Lanka</option>
             </select>
         </div>
+        <br>
         <div>
             <label for="reason">Anything else?</label>
+            <br>
+            <br>
             <input style="height: 100px; width: 200px;" type="textarea" id="reason">
         </div>
         <br>
