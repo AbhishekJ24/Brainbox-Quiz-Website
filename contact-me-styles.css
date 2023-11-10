@@ -1,0 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;500&family=Poppins:wght@500&family=Roboto:wght@500&display=swap');
+
+*{
+    font-family: 'Roboto', sans-serif;
+    padding: 4px;
+}
+#emailid{
+    width: 160px;
+}
+#country{
+    width: 90px;
+}

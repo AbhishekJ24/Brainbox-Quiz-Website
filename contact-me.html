@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="contact-me-styles.css">
+    <title>Contact</title>
+</head>
+<body>
+    <form class="formelements" action="">
+        <div>
+            <label for="fname">First Name</label>
+            <input type="text" id="fname" value="John" required>
+        </div>
+        <div>
+            <label for="lname">Last Name</label>
+            <input type="text" id="lname" value="Doe" required>
+        </div>
+        <div>
+            <label for="emailid">Work Email</label>
+            <input type="email" id= "emailid" name="" value="john.doe@example.com" required>
+        </div>
+        <div>
+            <label for="country">Country</label>
+            <select id="country">
+                <option value="India">India</option>
+                <option value="Pakistan">Pakistan</option>
+                <option value="Sri Lanka">Sri Lanka</option>
+                <option value="China">China</option>
+                <option value="Nepal">Nepal</option>
+                <option value="Bhutan">Bhutan</option>
+                <option value="Myanmar">Myanmar</option>
+            </select>
+        </div>
+        <div>
+            <label for="reason">Anything else?</label>
+            <input style="height: 100px; width: 200px;" type="textarea" id="reason">
+        </div>
+        <div>
+            <input type="submit" id="submit-btn">
+        </div>
+    </form>
+</body>
+</html>
