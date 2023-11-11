@@ -1,10 +1,10 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@450&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
 
 *{
     font-family: 'Roboto', 
     sans-serif;
-    font-size: 12px;
-    padding: 8px;
+    font-size: 14px;
+    padding: 6px;
 }
 h1{
     font-size: 30px;
@@ -19,7 +19,7 @@ h1{
 #submit-btn{
     width: 80px;
     height: 31px;
-    margin-left: 400px;
+    margin-left: 410px;
     background-color: azure;
 }
 #submit-btn:hover{
