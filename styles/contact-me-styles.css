@@ -1,8 +1,5 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
-
 *{
-    font-family: 'Roboto', 
-    sans-serif;
+    font-family: 'Poppins';
     font-size: 14px;
     padding: 6px;
 }
@@ -19,7 +16,7 @@ h1{
 #submit-btn{
     width: 80px;
     height: 31px;
-    margin-left: 410px;
+    margin-left: 405px;
     background-color: azure;
 }
 #submit-btn:hover{
@@ -30,12 +27,8 @@ h1{
 	background-size: 400% 400%;
 	-webkit-animation: gradient 15s ease infinite;
 	animation: gradient 15s ease infinite;
-    border-color: black;
-    border-style: solid;
+    border: solid 2px;
     width: 500px;
-    height: 680px;
-    margin-top: 130px;
-    margin-left: 565px;
 }
 footer{
     text-align: center;

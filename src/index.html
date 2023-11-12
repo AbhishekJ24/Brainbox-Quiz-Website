@@ -3,6 +3,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;500&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:wght@100;300;500&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="/styles/style.css">
     <title>brainbox - making quizzes simple</title>
 </head>
@@ -63,13 +66,44 @@
            </ul>
            <br>
            <br>
+           <li>
+            What does the following Python code snippet do?
+            <br>
+            <code>
+                from Crypto.PublicKey import DSA
+                from Crypto.Signature import DSS
+                from Crypto.Hash import SHA256
+                key = DSA.generate(2048)
+                private_key = key
+                public_key = key.publickey()            
+                message = b"Hello, World!"
+                hash_obj = SHA256.new(message)
+                signer = DSS.new(private_key, 'fips-186-3')
+                signature = signer.sign(hash_obj)
+                verifier = DSS.new(public_key, 'fips-186-3')
+                try:
+                    verifier.verify(hash_obj, signature)
+                    print("Signature is valid.")
+                except ValueError:
+                    print("Signature is invalid.")
+            </code>
+           </li>
+           <br>
+           <ul>
+            <input type="radio" id="question" name="q5" value="HTML"> <label for="html">Encrypts a message using DSA.</label><br>
+            <input type="radio" id="question" name="q5" value="HTML"> <label for="html">Generates an RSA key pair.</label><br>
+            <input type="radio" id="question" name="q5" value="HTML"> <label for="html">Signs a message with DSA and verifies the signature.</label><br>
+            <input type="radio" id="question" name="q5" value="HTML"> <label for="html">Hashes a message with SHA-256 for secure storage.</label><br>
+           </ul>
+           <br>
+           <br>
            <li>In a binary tree, what is the maximum number of children a node can have in a complete binary tree?</li>
            <br>
            <ul>
-            <input type="radio" id="question" name="q5" value="HTML"> <label for="html">0</label><br>
-            <input type="radio" id="question" name="q5" value="HTML"> <label for="html">1</label><br>
-            <input type="radio" id="question" name="q5" value="HTML"> <label for="html">2</label><br>
-            <input type="radio" id="question" name="q5" value="HTML"> <label for="html">3</label><br>
+            <input type="radio" id="question" name="q6" value="HTML"> <label for="html">0</label><br>
+            <input type="radio" id="question" name="q6" value="HTML"> <label for="html">1</label><br>
+            <input type="radio" id="question" name="q6" value="HTML"> <label for="html">2</label><br>
+            <input type="radio" id="question" name="q6" value="HTML"> <label for="html">3</label><br>
            </ul>
            <br>
         </ol>
