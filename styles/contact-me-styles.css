@@ -8,24 +8,28 @@ h1{
     font-size: 35px;
     text-align: center;
 }
+#fname, #lname{
+    width: 50%;
+}
 #emailid{
-    width: 160px;
+    width: 75%;
 }
 #country{
-    width: 120px;
+    width: 50%;
 }
 #submit-btn{
-    width: 80px;
-    height: 31px;
+    width: 25%;
+    height: 30px;
     background-color: azure;
 }
 #submit-btn:hover{
     background-color: #84ecd4;
 }
 #reason{
-    width: 80vh;
+    width: 80%;
+    height: 100px;
 }
-#form-elements{
+#container{
     background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
 	background-size: 400% 400%;
 	-webkit-animation: gradient 15s ease infinite;
