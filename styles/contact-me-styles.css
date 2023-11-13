@@ -2,9 +2,10 @@
     font-family: 'Poppins';
     font-size: 14px;
     padding: 6px;
+    border-radius: 6.5px;
 }
 h1{
-    font-size: 30px;
+    font-size: 35px;
     text-align: center;
 }
 #emailid{
@@ -16,11 +17,13 @@ h1{
 #submit-btn{
     width: 80px;
     height: 31px;
-    margin-left: 405px;
     background-color: azure;
 }
 #submit-btn:hover{
     background-color: #84ecd4;
+}
+#reason{
+    width: 80vh;
 }
 #form-elements{
     background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
@@ -28,7 +31,9 @@ h1{
 	-webkit-animation: gradient 15s ease infinite;
 	animation: gradient 15s ease infinite;
     border: solid 2px;
-    width: 500px;
+    width: 41vh;
+    line-height: 30px;
+    margin: auto;
 }
 footer{
     text-align: center;
@@ -36,3 +41,7 @@ footer{
     padding-top: 60px;
     overflow: hidden;
 }
+ #fname, #lname, #emailid, #country{
+    border: none;
+    border-bottom: solid 1px;
+ }
