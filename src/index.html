@@ -1,123 +1,164 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;500&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:wght@100;300;500&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="/styles/style.css">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+        href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;500&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:wght@100;300;500&display=swap"
+        rel="stylesheet" />
+    <link rel="stylesheet" href="/styles/style.css" />
     <title>brainbox - making quizzes simple</title>
 </head>
+
 <body>
     <div>
         <ul class="navbar">
-            <img class="top_logo" height="60" src="/resources/logo.png" alt="ERROR">
-            <a href="index.html" >HOME</a>
+            <img class="top_logo" height="60" src="/resources/logo.png" alt="ERROR" />
+            <a href="index.html">HOME</a>
             <a href="exercises.html" target="_blank">EXERCISES</a>
             <a href="careers.html" target="_blank">CAREERS</a>
             <a href="about.html" target="_blank">ABOUT US</a>
             <a href="contact-me.html" target="_blank">CONTACT</a>
         </ul>
     </div>
-    <hr>
+    <hr />
     <div class="cont">
-        <br>
-        <br>
+        <br />
+        <br />
         <form target="_blank">
-        <ol class="textual">
-           <li>What is the time complexity of a binary search algorithm when searching for a specific element in a sorted array of size 'n'?</li>
-           <br>
-           <ul>
-            <input type="radio" id="question" name="q1" value="HTML"> <label for="html">O(1)</label><br>
-            <input type="radio" id="question" name="q1" value="HTML"> <label for="html">O(log n)</label><br>
-            <input type="radio" id="question" name="q1" value="HTML"> <label for="html">O(n)</label><br>
-            <input type="radio" id="question" name="q1" value="HTML"> <label for="html">O(n^2)</label><br>
-           </ul>
-           <br>
-           <br>
-           <li>Which data structure is best suited for implementing a LIFO (Last-In-First-Out) data structure?</li>
-           <br>
-           <ul>
-            <input type="radio" id="question" name="q2" value="HTML"> <label for="html">Queue</label><br>
-            <input type="radio" id="question" name="q2" value="HTML"> <label for="html">Linked List</label><br>
-            <input type="radio" id="question" name="q2" value="HTML"> <label for="html">Stack</label><br>
-            <input type="radio" id="question" name="q2" value="HTML"> <label for="html">Hash Table</label><br>
-           </ul>
-           <br>
-           <br>
-           <li>In the context of sorting algorithms, what is the key difference between a stable sort and an unstable sort?</li>
-           <br>
-           <ul>
-            <input type="radio" id="question" name="q3" value="HTML"> <label for="html">Stable sort preserves the relative order of equal elements, while unstable sort does not.</label><br>
-            <input type="radio" id="question" name="q3" value="HTML"> <label for="html">Stable sort is always faster than unstable sort.</label><br>
-            <input type="radio" id="question" name="q3" value="HTML"> <label for="html">Stable sort uses less memory than unstable sort.</label><br>
-            <input type="radio" id="question" name="q3" value="HTML"> <label for="html">Stable sort works only with integers, while unstable sort works with any data type.</label><br>
-           </ul>
-           <br>
-           <br>
-           <li>Which searching algorithm is commonly used to search through a collection of data that is not necessarily sorted and has an average-case time complexity of O(n/2)?</li>
-           <br>
-           <ul>
-            <input type="radio" id="question" name="q4" value="HTML"> <label for="html">Linear Search</label><br>
-            <input type="radio" id="question" name="q4" value="HTML"> <label for="html">Binary Search</label><br>
-            <input type="radio" id="question" name="q4" value="HTML"> <label for="html">Hashing</label><br>
-            <input type="radio" id="question" name="q4" value="HTML"> <label for="html">Depth First Search</label><br>
-           </ul>
-           <br>
-           <br>
-           <li>
-            What does the following Python code snippet do?
-            <br>
-            <code>
-                from Crypto.PublicKey import DSA
-                from Crypto.Signature import DSS
-                from Crypto.Hash import SHA256
-                key = DSA.generate(2048)
-                private_key = key
-                public_key = key.publickey()            
-                message = b"Hello, World!"
-                hash_obj = SHA256.new(message)
-                signer = DSS.new(private_key, 'fips-186-3')
-                signature = signer.sign(hash_obj)
-                verifier = DSS.new(public_key, 'fips-186-3')
-                try:
-                    verifier.verify(hash_obj, signature)
-                    print("Signature is valid.")
-                except ValueError:
-                    print("Signature is invalid.")
+            <ol class="textual">
+                <li>
+                    What is the time complexity of a binary search algorithm when
+                    searching for a specific element in a sorted array of size 'n'?
+                </li>
+                <br />
+                <ul>
+                    <input type="radio" id="question" name="q1" value="HTML" />
+                    <label for="html">O(1)</label><br />
+                    <input type="radio" id="question" name="q1" value="HTML" />
+                    <label for="html">O(log n)</label><br />
+                    <input type="radio" id="question" name="q1" value="HTML" />
+                    <label for="html">O(n)</label><br />
+                    <input type="radio" id="question" name="q1" value="HTML" />
+                    <label for="html">O(n^2)</label><br />
+                </ul>
+                <br />
+                <br />
+                <li>
+                    Which data structure is best suited for implementing a LIFO
+                    (Last-In-First-Out) data structure?
+                </li>
+                <br />
+                <ul>
+                    <input type="radio" id="question" name="q2" value="HTML" />
+                    <label for="html">Queue</label><br />
+                    <input type="radio" id="question" name="q2" value="HTML" />
+                    <label for="html">Linked List</label><br />
+                    <input type="radio" id="question" name="q2" value="HTML" />
+                    <label for="html">Stack</label><br />
+                    <input type="radio" id="question" name="q2" value="HTML" />
+                    <label for="html">Hash Table</label><br />
+                </ul>
+                <br />
+                <br />
+                <li>
+                    In the context of sorting algorithms, what is the key difference
+                    between a stable sort and an unstable sort?
+                </li>
+                <br />
+                <ul>
+                    <input type="radio" id="question" name="q3" value="HTML" />
+                    <label for="html">Stable sort preserves the relative order of equal elements, while
+                        unstable sort does not.</label><br />
+                    <input type="radio" id="question" name="q3" value="HTML" />
+                    <label for="html">Stable sort is always faster than unstable sort.</label><br />
+                    <input type="radio" id="question" name="q3" value="HTML" />
+                    <label for="html">Stable sort uses less memory than unstable sort.</label><br />
+                    <input type="radio" id="question" name="q3" value="HTML" />
+                    <label for="html">Stable sort works only with integers, while unstable sort works
+                        with any data type.</label><br />
+                </ul>
+                <br />
+                <br />
+                <li>
+                    Which searching algorithm is commonly used to search through a
+                    collection of data that is not necessarily sorted and has an
+                    average-case time complexity of O(n/2)?
+                </li>
+                <br />
+                <ul>
+                    <input type="radio" id="question" name="q4" value="HTML" />
+                    <label for="html">Linear Search</label><br />
+                    <input type="radio" id="question" name="q4" value="HTML" />
+                    <label for="html">Binary Search</label><br />
+                    <input type="radio" id="question" name="q4" value="HTML" />
+                    <label for="html">Hashing</label><br />
+                    <input type="radio" id="question" name="q4" value="HTML" />
+                    <label for="html">Depth First Search</label><br />
+                </ul>
+                <br />
+                <br />
+                <li>
+                    What does the following Python code snippet do?
+                    <br />
+                    <code>
+              from Crypto.PublicKey import DSA from Crypto.Signature import DSS
+              from Crypto.Hash import SHA256 key = DSA.generate(2048)
+              private_key = key public_key = key.publickey() message = b"Hello,
+              World!" hash_obj = SHA256.new(message) signer =
+              DSS.new(private_key, 'fips-186-3') signature =
+              signer.sign(hash_obj) verifier = DSS.new(public_key, 'fips-186-3')
+              try: verifier.verify(hash_obj, signature) print("Signature is
+              valid.") except ValueError: print("Signature is invalid.")
             </code>
-           </li>
-           <br>
-           <ul>
-            <input type="radio" id="question" name="q5" value="HTML"> <label for="html">Encrypts a message using DSA.</label><br>
-            <input type="radio" id="question" name="q5" value="HTML"> <label for="html">Generates an RSA key pair.</label><br>
-            <input type="radio" id="question" name="q5" value="HTML"> <label for="html">Signs a message with DSA and verifies the signature.</label><br>
-            <input type="radio" id="question" name="q5" value="HTML"> <label for="html">Hashes a message with SHA-256 for secure storage.</label><br>
-           </ul>
-           <br>
-           <br>
-           <li>In a binary tree, what is the maximum number of children a node can have in a complete binary tree?</li>
-           <br>
-           <ul>
-            <input type="radio" id="question" name="q6" value="HTML"> <label for="html">0</label><br>
-            <input type="radio" id="question" name="q6" value="HTML"> <label for="html">1</label><br>
-            <input type="radio" id="question" name="q6" value="HTML"> <label for="html">2</label><br>
-            <input type="radio" id="question" name="q6" value="HTML"> <label for="html">3</label><br>
-           </ul>
-           <br>
-        </ol>
-        <input class="submit" type="submit" id="back-btn" name="go-back-button" value="BACK"> <label for="html"></label>
-        <input class="submit" type="submit" id="submit-btn" name="submit-button" value="SUBMIT"> <label for="html"></label>
+                </li>
+                <br />
+                <ul>
+                    <input type="radio" id="question" name="q5" value="HTML" />
+                    <label for="html">Encrypts a message using DSA.</label><br />
+                    <input type="radio" id="question" name="q5" value="HTML" />
+                    <label for="html">Generates an RSA key pair.</label><br />
+                    <input type="radio" id="question" name="q5" value="HTML" />
+                    <label for="html">Signs a message with DSA and verifies the signature.</label><br />
+                    <input type="radio" id="question" name="q5" value="HTML" />
+                    <label for="html">Hashes a message with SHA-256 for secure storage.</label><br />
+                </ul>
+                <br />
+                <br />
+                <li>
+                    In a binary tree, what is the maximum number of children a node can
+                    have in a complete binary tree?
+                </li>
+                <br />
+                <ul>
+                    <input type="radio" id="question" name="q6" value="HTML" />
+                    <label for="html">0</label><br />
+                    <input type="radio" id="question" name="q6" value="HTML" />
+                    <label for="html">1</label><br />
+                    <input type="radio" id="question" name="q6" value="HTML" />
+                    <label for="html">2</label><br />
+                    <input type="radio" id="question" name="q6" value="HTML" />
+                    <label for="html">3</label><br />
+                </ul>
+                <br />
+            </ol>
+            <input class="submit" type="submit" id="back-btn" name="go-back-button" value="BACK" />
+            <label for="html"></label>
+            <input class="submit" type="submit" id="submit-btn" name="submit-button" value="SUBMIT" />
+            <label for="html"></label>
         </form>
-        <br>
+        <br />
     </div>
-    <br>
-    <br>
+    <br />
+    <br />
     <footer>
         <div>
-            <p> Copyright &copy;2023 brainbox. Design by <i>AbhishekJ24</i></p>
+            <p>Copyright &copy;2023 brainbox. Design by <i>AbhishekJ24</i></p>
         </div>
     </footer>
 </body>
+
 </html>
