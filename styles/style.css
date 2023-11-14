@@ -34,6 +34,7 @@ a {
 
 a:hover {
     color: rgba(169, 211, 158);
+    text-shadow: 9px 8px 10px;
 }
 
 footer {
