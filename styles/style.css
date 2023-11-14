@@ -14,11 +14,10 @@
 }
 
 .navbar {
-    text-align: center;
     font-size: 22px;
     padding: 15px;
     background-color: rgba(200, 243, 205);
-    height: 70px;
+    list-style: none;
 }
 
 .top_logo {
