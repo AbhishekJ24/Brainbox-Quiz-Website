@@ -1,18 +1,19 @@
-*{
+* {
     font-family: 'Poppins';
-    margin:0;
-    padding:0;
+    margin: 0;
+    padding: 0;
 }
-.cont{
+
+.cont {
     background-color: rgba(245, 255, 250);
     font-size: 20px;
 }
 
-.textual{
+.textual {
     margin-left: 60px;
 }
 
-.navbar{
+.navbar {
     text-align: center;
     font-size: 22px;
     padding: 15px;
@@ -20,32 +21,38 @@
     height: 70px;
 }
 
-.top_logo{
+.top_logo {
     margin-left: 20px;
 }
-a{
+
+a {
     text-decoration: none;
     color: black;
     padding: 20px;
-    margin-left:100px;
+    margin-left: 100px;
 }
-a:hover{
+
+a:hover {
     color: rgba(169, 211, 158);
 }
-footer{
+
+footer {
     text-align: center;
     background-color: rgba(200, 243, 205);
     height: 100px;
     padding-top: 60px;
     overflow: hidden;
 }
-.sign{
+
+.sign {
     text-align: right;
 }
-hr{
+
+hr {
     background-color: black;
 }
-.submit{
+
+.submit {
     margin-left: 60px;
     height: 30px;
     width: 100px;
@@ -53,12 +60,15 @@ hr{
     color: white;
     border-style: none;
 }
-.submit:hover{
+
+.submit:hover {
     color: black;
 }
-#submit-btn{
+
+#submit-btn {
     background-color: rgb(55, 144, 226);
 }
-#back-btn{
+
+#back-btn {
     background-color: gray;
 }

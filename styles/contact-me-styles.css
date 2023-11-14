@@ -1,51 +1,65 @@
-*{
+* {
     font-family: 'Poppins';
     font-size: 14px;
     padding: 6px;
     border-radius: 6.5px;
 }
-h1{
+
+h1 {
     font-size: 35px;
     text-align: center;
 }
-#fname, #lname{
+
+#fname,
+#lname {
     width: 50%;
 }
-#emailid{
+
+#emailid {
     width: 75%;
 }
-#country{
+
+#country {
     width: 50%;
 }
-#submit-btn{
+
+#submit-btn {
     width: 25%;
     height: 30px;
     background-color: azure;
 }
-#submit-btn:hover{
+
+#submit-btn:hover {
     background-color: #84ecd4;
 }
-#reason{
+
+#reason {
     width: 80%;
     height: 100px;
 }
-#container{
+
+#container {
     background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
-	background-size: 400% 400%;
-	-webkit-animation: gradient 15s ease infinite;
-	animation: gradient 15s ease infinite;
+    background-size: 400% 400%;
+    -webkit-animation: gradient 15s ease infinite;
+    animation: gradient 15s ease infinite;
     border: solid 2px;
     width: 41vw;
     line-height: 30px;
     margin: auto;
 }
-footer{
+
+footer {
     text-align: center;
     height: 100px;
     padding-top: 60px;
     overflow: hidden;
 }
- #fname, #lname, #emailid, #country{
+
+#fname,
+#lname,
+#emailid,
+#country {
     border: none;
     border-bottom: solid 1px;
- }
+}
