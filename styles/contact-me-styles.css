@@ -1,8 +1,7 @@
 * {
     font-family: 'Poppins';
     font-size: 14px;
-    padding: 6px;
-    border-radius: 6.5px;
+    padding: 0px;
 }
 
 h1 {
@@ -24,42 +23,38 @@ h1 {
 }
 
 #submit-btn {
-    width: 25%;
+    width: 20%;
     height: 30px;
+    border: none;
+    border-radius: 10px;
     background-color: azure;
 }
 
 #submit-btn:hover {
-    background-color: #84ecd4;
+    background-color: lightgray;
 }
 
 #reason {
     width: 80%;
-    height: 100px;
+    height: 20vh;
 }
 
-#container {
-    background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
-    background-size: 400% 400%;
-    -webkit-animation: gradient 15s ease infinite;
-    animation: gradient 15s ease infinite;
-    border: solid 2px;
-    width: 41vw;
+.container {
+    background-color: #84ecd4;
+    border-radius: 20px;
     line-height: 30px;
+    width: 30vw;
     margin: auto;
-}
+    padding: 25px;
 
-footer {
-    text-align: center;
-    height: 100px;
-    padding-top: 60px;
-    overflow: hidden;
 }
 
 #fname,
 #lname,
 #emailid,
-#country {
+#country,
+#reason {
     border: none;
+    border-radius: 3px;
     border-bottom: solid 1px;
 }
