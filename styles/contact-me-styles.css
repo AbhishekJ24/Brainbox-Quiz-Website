@@ -40,13 +40,16 @@ h1 {
 }
 
 .container {
+    display: flex;
+    justify-content: center;
+    align-items:center;
+}
+form{
     background-color: #84ecd4;
     border-radius: 20px;
     line-height: 30px;
-    width: 30vw;
-    margin: auto;
     padding: 25px;
-
+    width: 500px;
 }
 
 #fname,

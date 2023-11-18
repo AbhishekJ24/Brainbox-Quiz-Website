@@ -9,56 +9,58 @@
     <link
         href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
         rel="stylesheet" />
-    <link rel="stylesheet" href="/styles/contact-me-styles.css" />
+    <link rel="stylesheet" href="/Sigma-Web-Dev/Quiz App/styles/contact-me-styles.css" />
     <title>Contact</title>
 </head>
 
 <body>
-    <form class="container" action="/contact-details.php">
-        <h1>Reach out to us</h1>
-
-        <label for="fname">First Name*</label>
-        <br />
-        <input type="text" id="fname" required />
-
-        <br />
-
-        <label for="lname">Last Name*</label>
-        <br />
-        <input type="text" id="lname" required />
-
-        <br />
-
-        <label for="emailid">Work Email*</label>
-        <br />
-        <input type="email" id="emailid" required />
-
-        <br />
-
-        <label for="country">Country*</label>
-        <br />
-        <select id="country" placeholder="">
-            <option disabled>Select Country</option>
-            <option value="Bhutan">Bhutan</option>
-            <option value="China">China</option>
-            <option value="India" selected>India</option>
-            <option value="Myanmar">Myanmar</option>
-            <option value="Nepal">Nepal</option>
-            <option value="Pakistan">Pakistan</option>
-            <option value="Sri Lanka">Sri Lanka</option>
-        </select>
-
-        <br />
-
-        <label for="reason">Anything else?</label>
-        <br />
-        <textarea id="reason"> </textarea>
-
-        <br />
-
-        <input type="submit" id="submit-btn" />
-
-    </form>
+    <div class="container">
+        <form action="/contact-details.php">
+            <h1>Reach out to us</h1>
+    
+            <label for="fname">First Name*</label>
+            <br />
+            <input type="text" id="fname" required />
+    
+            <br />
+    
+            <label for="lname">Last Name*</label>
+            <br />
+            <input type="text" id="lname" required />
+    
+            <br />
+    
+            <label for="emailid">Work Email*</label>
+            <br />
+            <input type="email" id="emailid" required />
+    
+            <br />
+    
+            <label for="country">Country*</label>
+            <br />
+            <select id="country" placeholder="">
+                <option disabled>Select Country</option>
+                <option value="Bhutan">Bhutan</option>
+                <option value="China">China</option>
+                <option value="India" selected>India</option>
+                <option value="Myanmar">Myanmar</option>
+                <option value="Nepal">Nepal</option>
+                <option value="Pakistan">Pakistan</option>
+                <option value="Sri Lanka">Sri Lanka</option>
+            </select>
+    
+            <br />
+    
+            <label for="reason">Anything else?</label>
+            <br />
+            <textarea id="reason"> </textarea>
+    
+            <br />
+    
+            <input type="submit" id="submit-btn" />
+    
+        </form>
+    </div>
 </body>
 
 </html>
